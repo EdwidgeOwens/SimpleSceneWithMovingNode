@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://x071yhb3uhuj"]
+
+[ext_resource type="Script" uid="uid://c2ndcwyl38hys" path="res://hello_text.gd" id="1_3mqji"]
+
+[node name="MainScene" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 5)
+current = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
+light_energy = 1.5
+
+[node name="HelloText" type="Label3D" parent="."]
+transform = Transform3D(1.409539, 0, -0.5130302, 0, 1.5, 0, 0.5130302, 0, 1.409539, 0, 1, 0)
+pixel_size = 0.01
+text = "Hello World"
+font_size = 64
+script = ExtResource("1_3mqji")
