@@ -76,6 +76,8 @@ MainScene (Node3D)
 
 The output is a simple 3D scene where the **“Hello World”** text moves smoothly from side to side, demonstrating basic 3D movement and scripting in Godot.
 
+<img width="1142" height="643" alt="Screenshot 2026-01-31 at 5 43 08 PM" src="https://github.com/user-attachments/assets/63afacf4-e78e-4745-8c9e-d046a47c4f05" />
+
 ---
 
 ## Learning Outcome
